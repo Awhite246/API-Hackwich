@@ -13,6 +13,8 @@
 		3F6185AF27A995D20025330A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61859A27A995C70025330A /* ContentView.swift */; };
 		3F6185B027A995D20025330A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F61859B27A995D20025330A /* Assets.xcassets */; };
 		3F6185B127A995D20025330A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F61859B27A995D20025330A /* Assets.xcassets */; };
+		3F6185BB27AAEB5C0025330A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6185BA27AAEB5C0025330A /* SwiftyJSON.swift */; };
+		3F6185BC27AAEB5C0025330A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6185BA27AAEB5C0025330A /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		3F6185A827A995D20025330A /* API Hackwich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API Hackwich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6185AA27A995D20025330A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F6185AB27A995D20025330A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3F6185BA27AAEB5C0025330A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 				3F61859927A995C70025330A /* API_HackwichApp.swift */,
 				3F61859A27A995C70025330A /* ContentView.swift */,
 				3F61859B27A995D20025330A /* Assets.xcassets */,
+				3F6185BA27AAEB5C0025330A /* SwiftyJSON.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -187,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6185BB27AAEB5C0025330A /* SwiftyJSON.swift in Sources */,
 				3F6185AE27A995D20025330A /* ContentView.swift in Sources */,
 				3F6185AC27A995D20025330A /* API_HackwichApp.swift in Sources */,
 			);
@@ -196,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6185BC27AAEB5C0025330A /* SwiftyJSON.swift in Sources */,
 				3F6185AF27A995D20025330A /* ContentView.swift in Sources */,
 				3F6185AD27A995D20025330A /* API_HackwichApp.swift in Sources */,
 			);
